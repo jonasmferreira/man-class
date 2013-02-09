@@ -16,7 +16,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>OSWEB - Login</title>
+		<title>CMS - ManClass - Login</title>
 		<link href="css/login.css" rel="stylesheet" type="text/css" />
 		<link href="js/css/custom-theme/jquery-ui-1.8.10.custom.css" rel="stylesheet" type="text/css"  />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -28,7 +28,7 @@
 	</head>
 	<body>
 		<div class="header">
-			<img src="img/logo_funil.png" alt="OSWEB" />
+			<img src="img/logo_funil.png" alt="CMS - ManClass" />
 		</div>
 		<div class="form">
 			<div class="error">
@@ -46,6 +46,6 @@
 				<input type="submit" id="enviar" name="login" value="Enviar" />
 			</form>
 		</div>
-		<div class="footer">OSWEB</div>
+		<div class="footer">CMS - ManClass</div>
 	</body>
 </html>

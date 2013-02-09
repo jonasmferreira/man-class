@@ -44,7 +44,7 @@
 			$("#formEdicao").submit();
 		});
 		$("#voltar").click(function(){
-			window.location.href = 'usuarioLista.php';
+			window.location.href = 'corOlhoLista.php';
 		});
 		$(".deleteItem").click(function(){
 			var id = $(this).attr('rel');
@@ -55,7 +55,7 @@
 				}
 				$.ajax({
 					type:'POST'
-					,url:'controller/usuario.controller.php?action=deleteItem'
+					,url:'controller/corOlho.controller.php?action=deleteItem'
 					,async:false
 					,data:{
 						'usuario_id':id
