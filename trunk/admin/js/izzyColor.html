@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>jQuery Color Picker &raquo; by IzzyWebsite TOOLS</title>
+
+<script type="text/javascript">
+	var imageUrl="editor_images/color.png"; // optionally, you can change path for images.
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+<script src="izzyColor.js"></script>
+
+	<style type="text/css">
+		body { font-family:Arial, Helvetica, sans-serif; padding:30px;}
+		label { display:block; float:left; width:180px;}
+		input { display:block; float:left; border:1px solid #333; width:100px; padding:2px}
+		code {margin:15px 0; color:#090; display:block; font-size:12px }
+	</style>
+    
+</head>
+<body>
+
+
+
+
+
+
+
+<fieldset>
+<legend>Color Picker - Sample</legend>
+
+
+<label for="color1">Choose your color #1: </label><input type="text" value="#CCCC66" class="izzyColor" id="color1">
+
+<br />
+<br />
+
+<label for="color2">Choose your color #2: </label><input type="text" value="#FF0000" class="izzyColor" id="color2">
+
+
+</fieldset>
+
+
+
+
+<fieldset>
+<legend>How to</legend>
+
+<a href="http://www.izzywebsite.com/tools/izzyColor.zip">Click here</a> to download izzyColor plugin<br />
+<br />
+
+First, define SCRIPT tags in HEAD. If you already have loaded jQuery, you can skip first line:
+<code>
+&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;<br />
+&lt;script src=&quot;izzyColor.js&quot;&gt;&lt;/script&gt;
+</code>
+As soon as it's defined, all input fields with class &quot;izzyColor&quot;
+will be converted to Color Picker:
+<code>
+&lt;input type=&quot;text&quot; value=&quot;#CCCC66&quot; class=&quot;izzyColor&quot; id=&quot;color1&quot;&gt;</code>
+It's important, that each text input should have its own, unique ID defined.
+</fieldset>
+
+</body>
+</html>
