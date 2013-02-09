@@ -10,7 +10,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 	<head>
-		<title>OSWEB</title>
+		<title>CMS - ManClass</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<link rel="stylesheet" href="css/jquery.css" type="text/css" />
@@ -46,7 +46,7 @@
 		<div style="text-align: center;">
 			<div id="main">
 				<div id="header">
-					<div id="logo"><h1>OSWEB</h1></div>
+					<div id="logo"><h1>CMS - ManClass</h1></div>
 					<div id="status">
 						Usuario Logado: <span class="titulo"><?php echo $session['usuario_nome'] ?></span> |
 						<span class="titulo">
@@ -58,11 +58,17 @@
 				<div id="main_content">
 					<div id="menu">
 						<div id="accordion">
-							<h3><a href="#section1">OSWEB</a></h3>
+							<h3><a href="#section1">CMS - ManClass</a></h3>
 							<div>
 								<ul>
 									<li><a href="home.php">Home</a></li>
 									<!--li><a href="homeLocalizacao.php">Ultimas Localizações</a></li -->
+								</ul>
+							</div>
+							<h3><a href="#section1">Cadastros Básicos</a></h3>
+							<div>
+								<ul>
+									<li><a href="corOlhoLista.php">Cor de Olhos</a></li>
 								</ul>
 							</div>
 							<h3><a href="#section10">Usuários</a></h3>
