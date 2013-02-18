@@ -58,7 +58,7 @@
 					,url:'controller/corOlho.controller.php?action=deleteItem'
 					,async:false
 					,data:{
-						'usuario_id':id
+						'cor_olho_id':id
 					}
 					,success:function(resp){
 						resp = resp.toString();

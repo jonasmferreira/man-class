@@ -592,6 +592,15 @@ class defaultClass {
 		}
 		return $rs;
 	}
+	
+	public function floatBR2DB($valor){
+		$valor = str_replace(".","",$valor);
+		$valor = str_replace(",",".",$valor);
+		return $valor;
+	}
+	public function floatDB2BR($valor,$decimals=2){
+		return number_format($valor, $decimals, ",", ".");
+	}
 
 }
 require_once "{$path_root_dbClass}lib{$DS}canvas.php";

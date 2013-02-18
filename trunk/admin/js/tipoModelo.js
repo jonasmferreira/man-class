@@ -58,7 +58,7 @@
 					,url:'controller/tipoModelo.controller.php?action=deleteItem'
 					,async:false
 					,data:{
-						'usuario_id':id
+						'tipo_modelo_id':id
 					}
 					,success:function(resp){
 						resp = resp.toString();
