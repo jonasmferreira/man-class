@@ -21,6 +21,12 @@
 		
 		$(".telefone").setMask('phone');
 		$(".inteiro").setMask('integer');
+		$(".dec").setMask('signed-decimal');
+		$(".peso").setMask('weight');
+		$(".altura").setMask('height');
+		$(".idade").setMask('age');
+		$(".dec").setMask('signed-decimal');
+		$(".celular").setMask('cellphonebr');
 		$(".dt").setMask('date');
 		$(".hr").setMask('time');
 		$(".datepicker").datepicker({

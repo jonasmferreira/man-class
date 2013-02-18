@@ -33,6 +33,7 @@
 			$sql[] = "
 				UPDATE	tb_configuracao SET
 					configuracao_baseurl_ckfinder = '{$this->values['configuracao_baseurl_ckfinder']}'
+					,configuracao_base_url = '{$this->values['configuracao_base_url']}'
 				WHERE	configuracao_id = '1'
 			";
 			$result = $this->dbConn->db_execute(implode("\n",$sql));

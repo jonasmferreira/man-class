@@ -34,6 +34,10 @@ if(trim($session['erro'])!='' && isset($session['erro'])){
 			<table width="100%" cellpadding="0" cellspacing="0" border="0">
 				<tbody>
 					<tr>
+						<td>Base Url:</td>
+						<td><input type="text" class="obrigatorio" name="configuracao_base_url" id="configuracao_base_url" value="<?=$configuracao['configuracao_base_url'] ?>" style="width: 500px" /></td>
+					</tr>
+					<tr>
 						<td>Base Url CKfinder:</td>
 						<td><input type="text" class="obrigatorio" name="configuracao_baseurl_ckfinder" id="configuracao_baseurl_ckfinder" value="<?=empty($configuracao['configuracao_baseurl_ckfinder']) ? '' : $configuracao['configuracao_baseurl_ckfinder'] ?>" style="width: 500px" /></td>
 					</tr>
