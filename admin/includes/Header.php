@@ -69,6 +69,7 @@
 							<div>
 								<ul>
 									<li><a href="corOlhoLista.php">Cor de Olhos</a></li>
+									<li><a href="tipoModeloLista.php">Tipo de Modelos</a></li>
 								</ul>
 							</div>
 							<h3><a href="#section10">Usuários</a></h3>
