@@ -28,7 +28,7 @@
 	</head>
 	<body>
 		<div class="header">
-			<img src="img/logo_funil.png" alt="CMS - ManClass" />
+			<img src="img/logo.png" alt="CMS - ManClass" />
 		</div>
 		<div class="form">
 			<div class="error">
