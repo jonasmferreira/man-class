@@ -26,9 +26,9 @@ class DataBaseClass{
 	private $tempoExec = "";
 	private $function="";
 	private $stmt = null;
-	private $log = false;
+	private $log = true;
     
-	protected $url_base="http://osweb.duetec.com.br/";
+	protected $url_base="";
 
     private $aIniFile = Array();
 	
@@ -62,6 +62,10 @@ class DataBaseClass{
 			$this->dbPassword = $pass;
 			$this->dbName = $db_name;
 			$this->dbDriver = $driver;
+			
+			$result = $this->db_query("SELECT * FROM tb_configuracao WHERE configuracao_id = '1'");
+			$rs = $this->db_fetch_assoc($result['result']);
+			$this->url_base = $rs['configuracao_base_url'];
 		} catch (PDOException $e) {
 			echo 'Connection failed: ' . $e->getMessage();
 		}
