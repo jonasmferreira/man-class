@@ -1,0 +1,327 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.titulo1 {
+    font-size: 12px;
+    text-align: center;
+}
+body {
+    background-color: #000000;
+    background-image: url("../img/bg.jpg");
+    background-repeat: repeat-y;
+    color: #FFFFFF;
+    font-family: arial,helvetica,freesans,sans-serif;
+    font-size: 10px;
+}
+#tudo {
+    height: 500px;
+    left: 50%;
+    margin-left: -490px;
+    position: absolute;
+    top: 0;
+    width: 980px;
+}
+#topo {
+    background-color: #000000;
+    background-image: url("../img/bg_topo.png");
+    background-repeat: repeat-x;
+    display: inline;
+    float: left;
+    height: 168px;
+    width: 100%;
+}
+#logo {
+    background-color: #000000;
+    display: inline;
+    float: left;
+    height: 151px;
+    margin-left: 0;
+    position: relative;
+    top: 8px;
+    width: 261px;
+}
+#nav-login {
+    display: inline;
+    float: left;
+    height: 100%;
+    margin-left: 10px;
+    position: relative;
+    width: 699px;
+	color: #FFFFFF;
+}
+#nav {
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    font-family: Arial,Verdana;
+    font-size: 14px;
+    height: 92px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+#nav li {
+    background-image: url("../img/bg_nav_li.png");
+    background-repeat: repeat-x;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 10px;
+    list-style: none outside none;
+    margin-right: 5px;
+    padding: 45px 5px 37px;
+    position: relative;
+}
+#nav li ul {
+    background-color: transparent;
+    background-image: none;
+    display: none;
+    margin-top: 10px;
+    position: absolute;
+    width: 100px;
+    z-index: 10;
+}
+#nav li ul li {
+    background-image: url("../img/bg_drop_down.png");
+    background-repeat: repeat-y;
+    display: inline;
+    float: left;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 99%;
+}
+#nav li:hover ul {
+    background-color: #000000;
+    display: block;
+    left: 0;
+    list-style: none outside none;
+    position: absolute;
+    z-index: 10;
+}
+#nav li:hover li {
+    font-size: 11px;
+}
+#nav li.home {
+    padding: 45px 22px 37px;
+}
+#nav li.modelos {
+    padding: 45px 32px 37px;
+}
+#nav li.area_vip {
+    padding: 45px 32px 37px;
+}
+#nav li.contato {
+    padding: 45px 30px 37px;
+}
+#nav li.assine_ja {
+    padding: 45px 26px 37px;
+}
+#nav li.como_anunciar {
+    padding: 45px 10px 37px;
+}
+#nav li.sobre_o_site {
+    padding: 45px 12px 37px;
+}
+#login {
+    background-color: #000000;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 58px;
+    margin-left: 14px;
+    margin-top: 10px;
+    position: relative;
+    width: 667px;
+}
+#area_login_esq {
+    display: inline;
+    float: left;
+    height: 58px;
+    width: 10px;
+}
+#area_login_dir {
+    display: inline;
+    float: left;
+    height: 58px;
+    width: 8px;
+}
+#area_login {
+    background-image: url("../img/bg_login.png");
+    background-repeat: repeat-x;
+    display: inline;
+    float: left;
+    height: 58px;
+    width: 649px;
+}
+#area_login div {
+    display: inline;
+    float: left;
+    margin-top: 15px;
+}
+#area_login input {
+    background-color: #4E4F4F;
+    border: 1px solid #FD00D0;
+    height: 26px;
+    margin-left: 5px;
+}
+#email_login {
+    width: 321px;
+}
+#emaillogin {
+    margin-left: 10px !important;
+    width: 255px;
+	color: #FFFFFF;
+}
+#email_senha {
+    width: 328px;
+	color: #FFFFFF;
+}
+#senhalogin {
+    width: 279px;
+	color: #FFFFFF;
+}
+#conteudo {
+    display: inline;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+#destaque {
+    background-image: url("../img/bg_destaque.png");
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    height: 408px;
+    position: relative;
+    width: 100%;
+}
+#destaque_img {
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    margin-left: 13px;
+    margin-top: 33px;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+#destaque_img_false {
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    height: 357px;
+    left: 0;
+    margin-top: 33px;
+    position: absolute;
+    width: 100%;
+}
+#destaque_marks {
+    background-repeat: no-repeat;
+    bottom: 0;
+    display: inline;
+    float: left;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#destaque_marks img {
+    margin-right: 5px;
+}
+#destaque_semana {
+    background-color: #000000;
+    display: inline;
+    float: left;
+    padding-top: 16px;
+    position: relative;
+    width: 100%;
+}
+#area_destaque_semana {
+    background-color: #000000;
+    background-image: url("../img/bg_destaque_semana.png");
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    height: 410px;
+    position: relative;
+    width: 100%;
+}
+#destaque_semana .boxImagem {
+    border: 1px solid #FFFFFF;
+    margin-right: 13px;
+    margin-top: 38px;
+}
+#area_02{
+	display: inline;
+    float: left;
+    position: relative;
+	background-color: #000;
+}
+.modelos_01 {
+    background-color: #000000;
+    background-image: url("../img/nome_modelo.png");
+    background-position: center 15px;
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    padding-top: 15px;
+    position: relative;
+    width: 799px;
+}
+.sem_titulo{
+	background-image: none;
+}
+.modelos_01 .boxImagemModelo {
+    border: 1px solid #FD00D0;
+    margin-right: 5px;
+    margin-top: 38px;
+}
+.anuncios_01 {
+    background-color: #000000;
+    background-image: url("../img/nome_anuncio.png");
+    background-position: center 15px;
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    margin-left: 13px;
+    padding-top: 53px;
+    position: relative;
+    width: 151px;
+}
+.anuncios_01 .boxImagemAnuncio_01 {
+    border: 1px solid #FFFFFF;
+    margin-top: 6px;
+}
+.sem_titulo{
+	background-image: none;
+}
+#publicidade_01{
+	display: inline;
+    float: left;
+    position: relative;
+	width:960px;
+	height:120px;
+	border: 1px solid #FD00D0;
+	margin-top: 26px;
+}
+#publicidade_02{
+	display: inline;
+    float: left;
+    position: relative;
+	width:960px;
+	height:120px;
+	border: 1px solid #FFF;
+	margin-top: 26px;
+	margin-bottom: 30px;
+}
