@@ -76,6 +76,7 @@
 							<div>
 								<ul>
 									<li><a href="modeloLista.php">Modelos</a></li>
+									<li><a href="galeriaModeloLista.php">Galeria de Imagens</a></li>
 								</ul>
 							</div>
 							
