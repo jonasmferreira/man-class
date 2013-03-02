@@ -79,6 +79,13 @@
 									<li><a href="galeriaModeloLista.php">Galeria de Imagens</a></li>
 								</ul>
 							</div>
+							<h3><a href="#section4">Publicidade</a></h3>
+							<div>
+								<ul>
+									<li><a href="tipoPublicidadeLista.php">Tipo de Publicidade</a></li>
+									<li><a href="publicidadeLista.php">Publicidade</a></li>
+								</ul>
+							</div>
 							
 							<h3><a href="#section10">Usuários</a></h3>
 							<div>
